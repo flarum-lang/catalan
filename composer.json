@@ -1,24 +1,17 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/catalan",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Catalan language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/catalan",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"ca-locale"
 	],
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/catalan/issues",
+		"source": "https://github.com/flarum-lang/catalan"
 	},
 	"require": {
 		"flarum/core": "^1.5"
@@ -27,7 +20,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Catalan",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +28,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "ca",
+			"title": "Catalan"
 		},
 		"extiverse": {
 			"discuss": ""
