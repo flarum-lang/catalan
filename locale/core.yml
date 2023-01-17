@@ -17,3 +17,4 @@ core:
       custom_styles_heading: 'Estils personalitzats'
       custom_styles_text: 'Personalitzeu l''aparença del vostre fòrum afegint el vostre propi codi Less/CSS que s''aplicarà a sobre dels estils predeterminats de Flarum.'
       dark_mode_label: 'Mode fosc'
+      description: 'Personalitza els colors, els logotips i altres variables del teu fòrum.'
