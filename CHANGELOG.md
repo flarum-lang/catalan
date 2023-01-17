@@ -8,5 +8,6 @@ CHANGELOG
 **General changes**:
 
 * Updated Day.js translations.
+* Updated Flarum core translations.
 
 
