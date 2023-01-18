@@ -19,3 +19,7 @@ core:
       dark_mode_label: 'Mode fosc'
       description: 'Personalitza els colors, els logotips i altres variables del teu fòrum.'
       edit_css_button: 'Editar el CSS personalitzat'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
+      enter_hex_message: 'Per favor, introdueix un codi de color hexadecimal.'
+      favicon_heading: Favicon
