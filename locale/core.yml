@@ -33,3 +33,79 @@ core:
       description: 'Establiu el títol del fòrum, l''idioma i altres paràmetres bàsics.'
       display_name_heading: 'Nom de visualització de l''usuari'
       display_name_text: ' '
+      forum_description_heading: 'Descripció del Fòrum'
+      forum_description_text: 'Introduïu una o dues frases breus que descriguin la vostra comunitat. Això apareixerà a la "metaetiqueta" i també als motors de cerca.'
+      forum_title_heading: 'Títol del Fòrum'
+      home_page_heading: 'Pàgina d''inici'
+      home_page_text: 'Escolliu la pàgina que els usuaris visualitzaran en arribar al vostre fòrum.'
+      show_language_selector_label: 'Mostrar el selector d''idioma'
+      slug_driver_heading: 'Controlador de Slug: {model}'
+      slug_driver_text: 'Seleccioneu el controlador que s''utilitzarà par al slug d''aquest model.'
+      title: Bàsics
+      welcome_banner_heading: 'Missatge de benvinguda'
+      welcome_banner_text: 'Configura el text que es mostra al "bàner" de la pàgina de "Totes les discussions". Utilitzeu-ho per donar la benvinguda als convidats al vostre fòrum.'
+    dashboard:
+      clear_cache_button: 'Netejar la memòria cau'
+      description: 'El vostre fòrum d''un cop d''ull.'
+      io_error_message: 'No s''ha pogut escriure al sistema de fitxers. Comproveu els permisos del vostre sistema de fitxers i torneu-ho a provar. O proveu a executar des de la línia de comandaments.'
+      title: Tauler
+      tools_button: Eines
+    debug-warning:
+      detail: "Quan el mode <code>debug</code> estigui actiu, Flarum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulteu <link>Flarum docs</link> per obtenir més informació.\n"
+      label: 'Mode de depuració actiu'
+    edit_css:
+      customize_text: 'Personalitzeu l''aparença del vostre fòrum afegint el vostre propi codi Less/CSS que s''aplicarà a sobre dels <a>estils predeterminats</a> de Flarum.'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Modificar CSS personalitzat'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_footer_title'
+    edit_group:
+      color_label: '=> core.ref.color'
+      delete_button: 'Esborrar Grup'
+      delete_confirmation: 'Esteu segur que voleu suprimir aquest grup? Els membres del grup NO s''eliminaran.'
+      hide_label: 'Ocultar en el fòrum'
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
+      name_label: Nom
+      plural_placeholder: 'Plural (per exemple "Moderadors")'
+      singular_placeholder: 'Singulaer (per exemple "Moderador")'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Crear grup'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: Adreces
+      description: 'Configureu el controlador, la configuració i les adreces que utilitzarà el vostre fòrum per enviar correu electrònic.'
+      driver_heading: 'Escolliu un controlador'
+      driver_label: Controlador
+      from_label: Remitent
+      mail_encryption_label: Xifrat
+      mail_host_label: Servidor
+      mail_mailgun_domain_label: Domini
+      mail_mailgun_region_label: Regió
+      mail_mailgun_secret_label: 'Clau secreta'
+      mail_password_label: '=> core.ref.password'
+      mail_port_label: Port
+      mail_username_label: '=> core.ref.username'
+      send_test_mail_button: Enviar
+      smtp_heading: 'Paràmetres SMTP'
+      title: '=> core.ref.email'
+    extension:
+      disabled: Desactivada
+    header:
+      log_out_button: '=> core.ref.log_out'
+    nav:
+      appearance_button: '=> core.admin.appearance.title'
+      appearance_title: '=> core.admin.appearance.description'
+      basics_button: '=> core.admin.basics.title'
+      basics_title: '=> core.admin.basics.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.admin.email.description'
+      permissions_button: '=> core.admin.permissions.title'
+      permissions_title: '=> core.admin.permissions.description'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
