@@ -91,7 +91,10 @@ core:
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Paràmetres de Mailgun'
+      not_sending_message: 'Flarum actualment no està enviant correus electrònics. Això pot ser degut al controlador seleccionat o a errors en la seva configuració.'
       send_test_mail_button: Enviar
+      send_test_mail_heading: 'Enviar un correu de prova'
       smtp_heading: 'Paràmetres SMTP'
       title: '=> core.ref.email'
     extension:
