@@ -119,13 +119,22 @@ core:
       purge_button: Purgar
       readme:
         button_label: Llegiu-me
+        no_readme: 'Sembla que aquesta extensió no té un fitxer LLEGEIX-ME'
+        title: 'Documentació de {extName}'
     header:
+      get_help: 'Obtenir ajuda'
       log_out_button: '=> core.ref.log_out'
+    loading:
+      title: 'Per favor, esperi...'
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
+      categories:
+        authentication: Autenticació
+        core: 'Configuració bàsica'
+        discussion: Debat
       email_button: '=> core.ref.email'
       email_title: '=> core.admin.email.description'
       permissions_button: '=> core.admin.permissions.title'
