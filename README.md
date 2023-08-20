@@ -14,7 +14,7 @@ This language pack contains Catalan translations for Flarum (compatible with `1.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/catalan
+composer require flarum-lang/catalan:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
