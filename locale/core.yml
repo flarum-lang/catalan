@@ -187,3 +187,51 @@ core:
       global_heading: Global
       moderate_access_tokens_label: 'Moderar identificadors d''accés'
       moderate_heading: Moderat
+      new_group_button: 'Nou grup'
+      participate_heading: Participa
+      post_without_throttle_label: 'Respon repetidament sense esperar'
+      read_heading: Llegir
+      rename_discussions_label: 'Reanomenar debats'
+      reply_to_discussions_label: 'Respondre debats'
+      search_users_label: '=> core.ref.search_users'
+      sign_up_label: Registrar-se
+      start_discussions_label: 'Iniciar debat'
+      title: Permisos
+      view_forum_label: 'Veure fòrum (debats i usuaris)'
+      view_hidden_groups_label: 'Veure distintius de grup ocults'
+      view_last_seen_at_label: 'Mostrar sempre quan s''ha vist l''usuari per darrer cop'
+      view_post_ips_label: 'Mostrar les adreces IP de les publicacions'
+    permissions_controls:
+      allow_indefinitely_button: Indefinidament
+      allow_never_button: '=> core.ref.never'
+      allow_some_minutes_button: '{count, plural, one {Durant # minut} other {Durant # minuts}}'
+      allow_ten_minutes_button: 'Durant 10 minuts'
+      allow_until_reply_button: 'Fins a la propera resposta'
+      everyone_button: Tothom
+      members_button: '=> core.group.members'
+      signup_closed_button: Tancat
+      signup_open_button: Obert
+    settings:
+      saved_message: 'Canvis guardats.'
+      submit_button: '=> core.ref.save_changes'
+    upload_image:
+      remove_button: '=> core.ref.remove'
+      upload_button: 'Escull una imatge...'
+    users:
+      create_user_button: 'Nou usuari'
+      description: 'Una llista paginada de tots els usuaris del fòrum.'
+      grid:
+        columns:
+          display_name:
+            title: 'Mostrar nom'
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: 'Editar {username}'
+          email:
+            title: '=> core.ref.email'
+            visibility_hide: 'Amagar correu electrònic'
+            visibility_show: 'Mostrar correu electrònic'
+          group_badges:
+            no_badges: Cap
+            title: Grups
