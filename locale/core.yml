@@ -253,6 +253,25 @@ core:
       search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Usuaris totals: {count}'
+  api:
+    invalid_filter_type:
+      must_be_numeric_message: 'El filtre {filter} ha de ser numèric.'
+      must_not_be_array_message: 'El filtre {filter} no pot ser una matriu.'
+      must_not_be_multidimensional_array_message: 'El filtre {filter} no pot ser una matriu multidimensional.'
+    invalid_username_message: 'El nom d''usuari només pot contenir lletres, números i guions.'
+  email:
+    activate_account:
+      body: "Hola {username}!\n\nAlgú (esperem que tu!) s'ha donat d'alta a {forum} amb aquesta adreça de correu electrònic.\n\nSi has estat tu, senzillament clica el següent enllaç per activar el teu compte:\n{url}\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
+      subject: 'Activa el teu nou compte'
+    confirm_email:
+      body: "Hola {username}!\n\nAlgú (esperem que tu!) ha canviat l'adreça de correu electrònic a {forum} per aquesta.\n\nSi has estat tu, senzillament clica el següent enllaç per confirmar la nova adreça:\n{url}\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
+      subject: 'Confirma la teva adreça de correu electrònic'
+    reset_password:
+      body: "Hola {username}!\n\nAlgú (esperem que tu!) ha enviat una petició per restablir una contrasenya oblidada a {forum}.\n\nSi has estat tu, clica el següent enllaç per triar una contrasenya nova:\n{url}\n\nSi no has estat tu o no vols canviar la contrasenya, senzillament ignora aquest correu i es mantindrà la contrasenya actual.\n"
+      subject: '=> core.ref.reset_your_password'
+    send_test:
+      body: "Hola {username}!\n\nAquesta és una prova d'enviament per confirmar que la teva configuració de correu electrònic funciona de forma correcta.\n\nSi l'has enviat tu, aquest correu confirma que la configuració funciona!\n\nSi no has estat tu, senzillament ignora aquest correu.\n"
+      subject: 'Prova de correu electrònic'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -473,6 +492,15 @@ core:
       sent_message: Enviat
     welcome_hero:
       hide: 'Amagar el missatge de benvinguda'
+  group:
+    admin: Administrador
+    admins: Administradors
+    guest: Convidat
+    guests: Convidats
+    member: Membre
+    members: Membres
+    mod: Moderador
+    mods: Moderadors
   lib:
     alert:
       dismiss_a11y_label: 'Descartar l''alerta'
@@ -526,6 +554,58 @@ core:
       two_text: '{first} i {second}'
     username:
       deleted_text: '[esborrat]'
+  ref:
+    all_discussions: 'Tots els debats'
+    change_email: 'Canviar correu electrònic'
+    change_password: 'Canviar contrasenya'
+    color: Color
+    confirm_email: 'Confirmar adreça de correu'
+    confirm_password: 'Confirmar contrasenya'
+    confirmation_email_sent: 'T''hem enviat un correu de confirmació a {email}. Si no t''arriba aviat, comprova que no sigui a la teva carpeta de correu brossa.'
+    custom_footer_text: 'Afegir codi HTML per mostrar a baix de tot de la pàgina.'
+    custom_footer_title: 'Editar peu de pàgina personalitzat'
+    custom_header_text: 'Afegir codi HTML per mostrar a dalt de tot de la pàgina, inclús abans de la pròpia capçalera de Flarum.'
+    custom_header_title: 'Editar la capçalera personalitzada'
+    delete: Esborrar
+    delete_forever: 'Esborrar per sempre'
+    discussions: Debats
+    edit: Editar
+    edit_user: 'Editar usuari'
+    email: 'Correu electrònic'
+    extensions: Extensions
+    generic_confirmation_message: 'Segur que vols continuar? Aquest acció és irreversible.'
+    icon: Icona
+    icon_text: 'Inclou el nom de qualsevol icona <a>FontAwesome</a>, <em>incloent</em> el prefix <code>fas fa-</code>.'
+    load_more: 'Carregar més'
+    loading: Carregant...
+    log_in: 'Iniciar sessió'
+    log_out: 'Tancar sessió'
+    mark_all_as_read: 'Marcar tot com a llegit'
+    never: Mai
+    new_token: 'Nou identificador'
+    next_page: 'Pàgina següent'
+    notifications: Notificacions
+    okay: 'D''acord'
+    password: Contrasenya
+    posts: Publicacions
+    previous_page: 'Pàgina anterior'
+    remove: Esborrar
+    rename: Reanomenar
+    reply: Respondre
+    reset_your_password: 'Restablir la teva contrasenya'
+    restore: Restablir
+    save_changes: 'Gravar canvis'
+    search_users: 'Cercar usuaris'
+    security: Seguretat
+    settings: Configuració
+    sign_up: Registrar-se
+    some_others: '{count, plural, one {# més} other {# més}}'
+    start_a_discussion: 'Començar un debat'
+    username: 'Nom d''usuari'
+    users: Usuaris
+    view: Veure
+    write_a_reply: 'Escriure una resposta...'
+    you: Tu
   views:
     admin:
       extensions:
@@ -565,3 +645,10 @@ core:
       previous_page_button: '=> core.ref.previous_page'
     log_out:
       log_out_button: '=> core.ref.log_out'
+      log_out_confirmation: 'Segur que vols tancar la sessió a {forum}?'
+      title: '=> core.ref.log_out'
+    reset_password:
+      confirm_password_label: 'Confirmar nova contrasenya'
+      new_password_label: 'Nova contrasenya'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.reset_your_password'
