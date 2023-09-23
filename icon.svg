@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg2"
+   sodipodi:docname="icon.svg"
+   viewBox="0 0 70 44.8"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:guide-bbox="true"
+     pagecolor="#ffffff"
+     inkscape:window-height="705"
+     inkscape:zoom="7.9927272"
+     inkscape:window-x="-8"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g2656"
+     inkscape:cx="28.838717"
+     inkscape:cy="15.263876"
+     showguides="true"
+     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="1" />
+  <g
+     id="layer1"
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     transform="translate(0 0.4)">
+    <g
+       id="g2656"
+       inkscape:export-ydpi="90.401779"
+       inkscape:export-xdpi="90.401779"
+       inkscape:export-filename="/home/claus/trabajo/nico/img/spain.png"
+       transform="translate(-.35388 -.74330)">
+      <rect
+         id="rect2632"
+         style="fill:#ffc400;stroke-width:0.889663"
+         height="5"
+         width="70"
+         y="0.34330001"
+         x="0.35387999" />
+      <rect
+         id="rect2632-3"
+         style="fill:#ffc400;stroke-width:0.889663"
+         height="5"
+         width="70"
+         y="10.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2632-3-2"
+         style="fill:#ffc400;stroke-width:0.889663"
+         height="5"
+         width="70"
+         y="20.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2632-3-2-3"
+         style="fill:#ffc400;stroke-width:0.889663"
+         height="5"
+         width="70"
+         y="30.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2632-3-2-3-7"
+         style="fill:#ffc400;stroke-width:0.889663"
+         height="5"
+         width="70"
+         y="40.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2634"
+         style="fill:#c60b1e;stroke-width:0.920048"
+         height="5"
+         width="70"
+         y="5.3432999"
+         x="0.35387999" />
+      <rect
+         id="rect2634-3"
+         style="fill:#c60b1e;stroke-width:0.920048"
+         height="5"
+         width="70"
+         y="15.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2634-3-8"
+         style="fill:#c60b1e;stroke-width:0.920048"
+         height="5"
+         width="70"
+         y="25.3433"
+         x="0.35387999" />
+      <rect
+         id="rect2634-3-8-4"
+         style="fill:#c60b1e;stroke-width:0.920048"
+         height="5"
+         width="70"
+         y="35.3433"
+         x="0.35387999" />
+    </g>
+  </g>
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Flag of Spain</dc:title>
+        <dc:date>2008-06-04T15:48:51</dc:date>
+        <dc:description>spanish flag</dc:description>
+        <dc:source>https://openclipart.org/detail/17279/flag-of-spain-by-claudita</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>claudita</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>country</rdf:li>
+            <rdf:li>europe</rdf:li>
+            <rdf:li>european union</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>nation</rdf:li>
+            <rdf:li>spain</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
