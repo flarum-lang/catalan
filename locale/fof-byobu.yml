@@ -25,6 +25,7 @@ fof-byobu:
   email:
     body:
       private_discussion_created: "Hola {recipient_display_name}!\n\n{actor_display_name} ha començat un debat privat on t'ha inclòs com a destinatari: {discussion_title}.\n\nPots veure'l aquí:\n{discussion_url}\n\nPots haver d'iniciar sessió amb el teu usuari abans de poder accedir a aquest enllaç.\n"
+      private_discussion_replied: "Hola {recipient_display_name}!\n\n{actor_display_name} ha publicat en un debat privat on t'ha inclòs com a destinatari: {discussion_title}.\n\nPots veure'l aquí:\n{post_url}\n\nPots haver d'iniciar sessió amb el teu usuari abans de poder accedir a aquest enllaç.\n"
     subject:
       private_discussion_added: '[Debat privat] {display_name} t''ha afegit a un debat privat'
       private_discussion_created: '[Debat privat] {display_name} ha iniciat un nou debat privat amb tu'
