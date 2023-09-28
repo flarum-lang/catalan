@@ -18,5 +18,6 @@ CHANGELOG
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
