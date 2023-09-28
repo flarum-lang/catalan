@@ -74,6 +74,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
 
 <!-- various-extensions-list-stop -->
 
