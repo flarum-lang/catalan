@@ -10,16 +10,98 @@ v17development-flarum-blog:
       auto_approve_posts: 'Publicar articles sense necessitar aprovació'
       write_articles: 'Escriure i editar articles del blog'
     settings:
+      add_hero_label: 'Mostrar banner de benvinguda'
+      add_hero_text: 'Mostrar banner de benvinguda a les pàgines del blog si no s''ha tancat encara.'
       add_sidebar_nav_label: 'Afegir a la barra lateral de navegació'
+      add_sidebar_nav_text: 'Incloure un enllaç al blog dins el menú de navegació de la barra lateral.'
       allow_comments_label: 'Permetre comentaris'
       allow_comments_text: 'Per defecte, permetre comentaris a les publicacions del blog. Quan es desactiva, es pot activar individualment a cada publicació. <b>Nota:</b> Canviar aquest paràmetre de configuració no afectarà els escrits ja publicats.'
       blog_heading: Blog
+      categories_heading: Categories
+      default_article_image_label: 'Imatge de l''article per defecte'
+      default_article_image_text: 'Tria una imatge d''article per defecte per mostrar quan no hi ha cap imatge configurada.'
       featured_count_label: 'Publicacions màximes destacades'
       featured_count_text: 'Quantes publicacions s''han de mostrar en una graella gran a la pàgina superior de la pàgina del blog?'
       hide_on_discussion_list_label: 'No mostrar a la llista de debats'
       hide_on_discussion_list_text: 'Amagar publicacions de la llista de debats.'
+      hide_tags_in_taglist_label: 'Amagar etiquetes a la llista d''etiquetes'
+      hide_tags_in_taglist_text: 'Quan s''activa, aquesta extensió amagarà les etiquetes del blog de la teva pàgina d''inici.'
       no_categories_selected: 'No s''ha triat cap categoria'
+      redirect_articles_label: 'Redirigeix els articles del blog'
+      redirect_articles_text: 'Quan s''activa, aquesta extensió redirigirà les adreces web originals dels debats a les del blog.'
+      redirect_tags_label: 'Redirigir les etiquetes del blog'
+      redirect_tags_text: 'Quan s''activa, aquesta extensió redirigirà les adreces web de les etiquetes del blog a les adreça de la categoria del blog.'
+      redirects_heading: Redirigeix
       require_review_label: 'Les publicacions requereixen revisió prèvia'
       require_review_text: 'Quan s''escrigui un article, no serà visible directament i caldrà la revisió d''un moderador.'
       select_categories_button: 'Triar categories del blog'
       selected_category_count: '{count, plural, one {Has triat # categoria} other {Has triat # categories}}'
+      show_tag_hierarchy_label: 'Mostrar la jerarquia d''etiquetes'
+      show_tag_hierarchy_text: 'Afegir espaiat a les categories filles, i donar a la llista de categories una jerarquia.'
+  forum:
+    article:
+      slug: Slug
+      summary: Resum
+      title: Títol
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Fes que aquesta publicació mostri una imatge gran a la pàgina de vista general del blog.'
+          title: 'Publicació destacada'
+        image:
+          helper_text: 'Millor resolució d''imatge per a xarxes socials: 1200x630'
+          title: 'Imatge de l''article'
+        summary:
+          helper_text: 'El resum serà visible a la pàgina de vista general del blog i s''utilitzarà per a facilitar el posicionament web (SEO) de l''article.'
+          placeholder: 'Si us plau, entra un breu resum'
+          title: 'Resum de l''article'
+      title: 'Configuració de la publicació'
+    blog: Blog
+    categories: Categories
+    category_empty: 'No hi ha publicacions al blog dins aquesta categoria.'
+    comment_section:
+      comments: Comentaris
+      locked: 'La secció de comentaris està desactivada en aquest article'
+    compose:
+      write_article: 'Escriure article'
+    composer:
+      comment_section: 'La secció de comentaris no està disponible mentre es redacta un article.'
+      edit_categories: 'Editar categories'
+      enter_message_here: 'Escriu el teu missatge aquí'
+      no_blog_tags_selected: 'Cap de les etiquetes que has triat és una etiqueta de blog. Si us plau, tria''n almenys una.'
+      no_title: 'Sense títol'
+      nothing_to_preview: 'Res a previsualitzar'
+      post_article: 'Publicar article'
+      post_without_blog_info: 'Segur que vols publicar el que has escrit? No hi ha cap resum o imatge.'
+      select_category: 'Tria una categoria'
+      update_settings: 'Actualitzar configuració del blog'
+      view: Veure
+      write: Escriure
+    forum_nav: 'Navegació del fòrum'
+    hidden: Amagat
+    no_more_posts: 'No hi ha més publicacions al blog.'
+    read_more: 'Llegir més'
+    recent_posts: 'Publicacions recents'
+    return_to_overview: 'Tornar a la vista general del blog '
+    review_article:
+      approve_article: 'Aprovar article'
+      approve_article_approved: 'L''article ha estat aprovat i publicat'
+      pending_review: 'Aquest article està pendent de revisió i no està publicat encara'
+      pending_review_title: 'Revisió pendent'
+    tools:
+      approve_article: 'Aprovar article'
+      article_settings: 'Configuració de l''article'
+      delete_forever: 'Esborrar definitivament'
+      disable_comments: 'Desactivar comentaris'
+      edit_article: 'Editar article'
+      enable_comments: 'Activar comentaris'
+      hide_article: 'Amagar article'
+      recover_article: 'Recuperar article'
+      rename_article: 'Canviar el títol de l''article'
+      update_category: 'Actualitzar categories'
+    utils:
+      redirect:
+        link: '<a>Clica aquí</a> si la pàgina no et redirigeix'
+        title: 'Redirigint-te cap a l''article del blog...'
+    validation:
+      missing_id: 'Falta ID'
