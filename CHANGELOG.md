@@ -19,6 +19,7 @@ CHANGELOG
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
