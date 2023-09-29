@@ -75,6 +75,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/the-turk-flamoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-flamoji/ca/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
 
 <!-- various-extensions-list-stop -->
