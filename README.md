@@ -49,6 +49,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/ca/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/ca/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/ca/) |
 | [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/ca/) |
@@ -67,6 +68,8 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/ca/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/ca/) |
+| [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-sitemap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-sitemap/ca/) |
+| [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-subscribed/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-subscribed/ca/) |
 
 <!-- fof-extensions-list-stop -->
 
