@@ -66,6 +66,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/ca/) |
+| [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/ca/) |
 
 <!-- fof-extensions-list-stop -->
 
