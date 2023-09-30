@@ -4,16 +4,46 @@
 
 the-turk-flamoji:
   admin:
+    custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: 'Esborrar emoji'
+        delete_emoji_confirmation: 'Segur que vols esborrar aquest emoji?'
+        emoji_title_label: 'Nom de l''emoji'
+        modal_title: 'Afegir emoji'
+        path_or_url_label: 'Ruta del fitxer o adreça web'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Text a substituir'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'Exportar JSON'
+      heading_title: 'Emojis personalitzats'
+      import_emojis_message: 'Això importarà només les configuracions dels emojis. Cal que pugis les imatges dels emojis manualment.'
+      import_json_button: 'Importar JSON'
     settings:
       auto_hide_label: 'Ocultació automàtica'
       auto_hide_text: 'Amaga el selector quan s''ha triat un emoji.'
       category_settings_heading: 'Configuració de les categories'
+      emoji_categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Dades dels emojis'
+      emoji_data_text: 'S''utilitza habitualment per proveïr noms d''emoji traduïts.'
       emoji_settings_heading: 'Configuració dels emojis'
       emoji_style_label: 'Estil d''emojis'
+      emoji_style_native_option: Original
       emoji_version_label: 'Versió d''emojis'
       emoji_version_text: 'La versió de l''especificació d''emojis que cal utilitzar.'
       general_ui_settings_heading: 'Configuració de la interfície d''usuari'
       initial_category_label: 'Categoria inicial'
+      initial_category_text: 'Per defecte, el selector comença mostrant la categoria Emoticones & Emocions.'
       recents_count_label: 'Compteig d''emojis utilitzats recentment'
       recents_count_text: 'El nombre d''emojis recents a guardar.'
       show_category_buttons_label: 'Mostrar botons de categoria'
@@ -22,3 +52,27 @@ the-turk-flamoji:
       show_search_label: 'Mostrar l''entrada de cerca'
       show_variants_label: 'Mostrar variants'
       show_variants_text: 'Alguns emojis tenen variants de to de pell. Quan se selecciona un emoji que té variants, apareixerà una finestra emergent perquè l''usuari pugui seleccionar la variant desitjada.'
+      specify_categories_label: 'Especificar categories'
+      specify_categories_text: 'Pots triar aquí una llista de categories, i el selector només mostrarà les que indiquis.'
+  forum:
+    composer:
+      emoji_tooltip: 'Inserir emoji'
+    emoji-button:
+      categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      no_emojis_found_message: 'No s''han trobat emojis'
+      search_placeholder: 'Cercar emojis'
+  ref:
+    emoji_categories:
+      recents: 'Emojis recents'
+      smileys: 'Emoticones & Emocions'
