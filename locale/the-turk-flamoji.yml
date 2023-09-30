@@ -43,7 +43,7 @@ the-turk-flamoji:
       emoji_version_text: 'La versió de l''especificació d''emojis que cal utilitzar.'
       general_ui_settings_heading: 'Configuració de la interfície d''usuari'
       initial_category_label: 'Categoria inicial'
-      initial_category_text: 'Per defecte, el selector comença mostrant la categoria Emoticones & Emocions.'
+      initial_category_text: 'Per defecte, el selector comença mostrant la categoria Emoticones i emocions.'
       recents_count_label: 'Compteig d''emojis utilitzats recentment'
       recents_count_text: 'El nombre d''emojis recents a guardar.'
       show_category_buttons_label: 'Mostrar botons de categoria'
@@ -74,5 +74,14 @@ the-turk-flamoji:
       search_placeholder: 'Cercar emojis'
   ref:
     emoji_categories:
+      activities: Activitats
+      animals: 'Animals i natura'
+      custom: Personalitzats
+      flags: Banderes
+      food: 'Menjar i beure'
+      objects: Objectes
+      people: 'Gent i cos'
       recents: 'Emojis recents'
-      smileys: 'Emoticones & Emocions'
+      smileys: 'Emoticones i emocions'
+      symbols: Símbols
+      travel: 'Viatge i indrets'
