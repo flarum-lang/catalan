@@ -13,6 +13,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
@@ -21,6 +22,8 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
