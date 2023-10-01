@@ -30,6 +30,11 @@ fof-sitemap:
       soft_404:
         heading: 'Prevenció d''errors Soft 404'
         help: 'Quan un model té poc o cap contingut rellevant, el rastrejador de Google i altres, poden marcar-los com a pàgines "soft 404" (és a dir, pàgines que retornen un codi 200 de pàgina correcta existent, però sense dades d''interès). Per evitar-ho, marca aquí un nombre mínim d''elements necessaris per a cada element rellevant.'
+        tags:
+          discussion:
+            minimum_item_threshold_help: 'El nombre mínim de debats que una etiqueta ha de tenir per ser inclosa al sitemap.'
+            minimum_item_threshold_label: 'Etiqueta: Nombre mínim de debats'
         user:
           comments:
+            minimum_item_threshold_help: 'El nombre mínim de comentaris/publicacions que un usuari ha de tenir al seu perfil per ser inclòs en el sitemap.'
             minimum_item_threshold_label: 'Usuari: Nombre mínim de comentaris/publicacions'
