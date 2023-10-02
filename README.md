@@ -68,7 +68,9 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/ca/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/ca/) |
+| [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-default-user-preferences/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-default-user-preferences/ca/) |
 | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-gamification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-gamification/ca/) |
+| [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-impersonate/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-impersonate/ca/) |
 | [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-nightmode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-nightmode/ca/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/ca/) |
 | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/fof-sitemap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-sitemap/ca/) |
