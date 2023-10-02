@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-nightmode/ca/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'Tema de color per defecte'
+      fofNightMode-help: '0 - automàtic, 1 - mode clar, 2 - mode fosc'
+      fofNightMode_perDevice: 'Tria segons la configuració del dispositiu'
+      fofNightMode_perDevice-help: 'Utilitza el mode nocturn segons les preferències de configuració de cada dispositiu'
 fof-nightmode:
   admin:
     settings:
@@ -25,9 +32,14 @@ fof-nightmode:
         device_specific_setting_checkbox: 'Configuració específica per dispositiu'
         device_specific_setting_checkbox_tooltip: 'La teva tria de tema es guardarà individualment per a cadascun dels teus dispositius.'
         heading: Tema
+        option_descriptions:
+          auto: 'El teu tema es triarà automàticament en funció de la configuració del teu navegador o dispositiu. Per exemple, si tens el mode fosc activat a iOS, els fòrums s''hi veuran en mode fosc.'
+          day: 'L''experiència clàssica de sempre. Provada i ben valorada.'
+          night: 'Ets una mica mussol nocturn. Acostumes a mirar el fòrum de nit, quan els ocells dormen i les guineus cacen. O senzillament t''agraden més els colors foscos!'
         options:
           auto: '=> fof-nightmode.ref.auto'
           day: '=> fof-nightmode.ref.light'
+          night: '=> fof-nightmode.ref.dark'
   ref:
     auto: 'Automàtic (basat en les opcions del navegador o del dispositiu)'
     dark: 'Mode nocturn'
