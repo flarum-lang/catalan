@@ -85,6 +85,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/davwheat-custom-sidenav-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links/ca/) |
 | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/the-turk-flamoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-flamoji/ca/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
 
