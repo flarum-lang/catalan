@@ -24,6 +24,7 @@ CHANGELOG
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
