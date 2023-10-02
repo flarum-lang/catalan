@@ -14,6 +14,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/lock`](https://github.com/flarum/lock)
