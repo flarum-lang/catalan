@@ -9,6 +9,7 @@ CHANGELOG
 
 * Updated Day.js translations.
 * Updated Flarum core translations.
+* Updated validation translations.
 
 
 **Added support for new extensions**:
