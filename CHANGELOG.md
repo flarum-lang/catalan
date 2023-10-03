@@ -39,6 +39,7 @@ CHANGELOG
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
