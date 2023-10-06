@@ -38,6 +38,7 @@ CHANGELOG
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
