@@ -27,6 +27,8 @@ CHANGELOG
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
