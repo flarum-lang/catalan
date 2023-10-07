@@ -55,6 +55,7 @@ CHANGELOG
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+* [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
