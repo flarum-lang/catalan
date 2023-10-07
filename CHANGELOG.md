@@ -15,7 +15,9 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
@@ -50,6 +52,8 @@ CHANGELOG
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
