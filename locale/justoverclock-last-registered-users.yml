@@ -7,5 +7,5 @@ justoverclock-last-registered-users:
     showUsers: 'Darrers usuaris registrats per mostrar'
     showUsers-help: 'Accepta números. Escriu aquí el nombre d''usuaris a mostrar (per exemple, "2")'
   forum:
-    welcomeTexts: 'Una gran benvinguda als darrers usuaris i usuàries!'
+    welcomeTexts: 'Una gran benvinguda als darrers usuaris i usuàries:'
     widget-title: 'Darrers usuaris registrats'
