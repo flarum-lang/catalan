@@ -45,6 +45,7 @@ CHANGELOG
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
@@ -53,6 +54,7 @@ CHANGELOG
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
