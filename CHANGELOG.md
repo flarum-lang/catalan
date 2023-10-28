@@ -60,6 +60,7 @@ CHANGELOG
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
