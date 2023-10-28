@@ -22,6 +22,8 @@ fof-reactions:
         allow-anonymous-help: 'Si està activat, els usuaris convidats i anònomis podran reaccionar a les publicacions. Cal tenir en compte que les reaccions anònimes no estan enllaçades a cap perfil d''usuari i que s''afegiran a la llista de reaccions.'
         integrations:
           gamification:
+            downvoteHelptext: 'Entrar l''identificador de la reacció que vols convertir automàticament en un vot desfavorable'
+            downvoteLabel: 'Convertir reaccions en vots desfavorables'
             legend: Gamificació
             upvoteHelptext: 'Entrar l''identificador de la reacció que vols convertir automàticament en un vot favorable'
             upvoteLabel: 'Convertir reaccions en vots favorables'
