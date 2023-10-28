@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Ordenació per defecte'
       disable-global-search-source: 'No afegir el directori d''usuaris al camp de cerca global del fòrum'
       link: 'Afegir enllaç a la pàgina principal per a que els usuaris puguin veure el directori'
+      link-group-mentions: 'Enllaça les mencions del grup que hi hagi a les publicacions al directori d''usuaris'
       use-small-cards: 'Utilitzar targetes d''usuari petites'
   forum:
     header:
@@ -30,3 +31,15 @@ fof-user-directory:
         group: Grup
         text: 'Text lliure'
       users_heading: 'Cerca "{query}" a la llista d''usuaris'
+  lib:
+    sort:
+      default: 'Per defecte'
+      least_discussions: 'Menys debats'
+      least_posts: 'Menys publicacions'
+      most_discussions: 'Més debats'
+      most_posts: 'Més publicacions'
+      newest: 'Més nou'
+      not_specified: 'Per defecte al fòrum'
+      oldest: 'Més antic'
+      username_az: 'Nom d''usuari (a-z)'
+      username_za: 'Nom d''usuari (z-a)'
