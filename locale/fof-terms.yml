@@ -12,24 +12,50 @@ fof-terms:
       save-policy: 'Desar política'
       set-to-now: 'Fixar al moment actual'
     messages:
-      delete-policy-confirmation: "Aquest acció suprimirà permanentment la política {name} i les dates d'acceptació associades de la base de dades. Assegur't d'haver fet una còpia de seguretat d'aquestes dates si les necessiteu per motius legals. Estàs segur de que vols suprimir aquesta política?\n"
+      delete-policy-confirmation: "Aquest acció suprimirà permanentment la política {name} i les dates d'acceptació associades de la base de dades. Assegura't d'haver fet una còpia de seguretat d'aquestes dates si les necessiteu per motius legals. Estàs segur de que vols suprimir aquesta política?\n"
+    permissions:
+      export-policies: 'Exportar totes les dades d''usuaris i polítiques'
+      postpone-policies-accept: 'Pot posposar l''acceptació de les noves condicions d''ús'
+      see-user-policies-state: 'Veure l''estat de les polítiques d''usuari'
     policies:
       export-url: 'Exportar adreça web'
+      export-url-help: "Qualsevol usuari amb permís \"Exporta totes les dades de les polítiques\" pot accedir a aquestes adreces web per baixar la llista d'usuaris que han acceptat aquesta política. Pots trobar més detalls sobre les opcions disponibles al <a>wiki de l'extensió</a>.\n"
       name: Nom
       name-help: 'Aquest nom es mostrarà al costat de la casella de selecció i com a títol de la finestra modal d''actualització.'
-      terms-updated-at: 'Actualitzat el'
-      terms-updated-at-help: "La data de l'última actualització de termes. Per establir aquest valor, caldrà que tots els usuaris que hagin acceptat abans d'aquesta data, els tornin a acceptar. Ha de ser en el passat (en cas contrari, els usuaris mai podrien acceptar després de la data i superar amb èxit la finestra modal).\n"
+      terms-updated-at: 'Actualitzades el'
+      terms-updated-at-help: "La data de l'última actualització de condicions d'ús. Per establir aquest valor, caldrà que tots els usuaris que hagin acceptat abans d'aquesta data, les tornin a acceptar. Ha de ser en el passat (en cas contrari, els usuaris mai podrien acceptar després de la data i, per tant, no podran superar amb èxit la finestra modal).\n"
       terms-updated-at-placeholder: 'YYYY-MM-DD (hh:mm:ss)'
       update-message: 'Missatge d''actualització'
-      update-message-help: 'Missatge a mostrar als usuaris actuals que no hagin acceptat encara els darrers termes.'
+      update-message-help: 'Missatge a mostrar als usuaris actuals que no hagin acceptat encara les darreres condicions d''ús.'
       url: 'Adreça web'
-      url-help: 'L''adreça web de la pàgina on pots llegir els termes. S''obrirà en una nova pestanya quan hi facis clic.'
+      url-help: 'L''adreça web de la pàgina on pots llegir les condicions d''ús. S''obrirà en una nova pestanya quan hi facis clic.'
     settings:
       field:
         date-format: 'Format de data'
         date-format-help: 'Pots utilitzar qualsevol format vàlid de <a>Day.js</a>. Deixa el camp buit per defecte.'
-        hide-updated-at: 'No mostris la data d''actualització de les condicions quan hi hagi una actualització disponible'
+        hide-updated-at: 'No mostris la data d''actualització de les condicions d''ús quan hi hagi una actualització disponible'
         signup-legal-text: 'Text addicional al formulari d''inscripció'
-      title: 'Configuració dels termes'
+      title: 'Configuració de les condicions d''ús'
     titles:
       policies: Polítiques
+  forum:
+    accept-modal:
+      accept: Confirmar
+      close: 'Gràcies per acceptar. Ara pots tornar al fòrum'
+      i-accept: 'Accepto la nova <a>{policy}</a>'
+      title: 'Actualització de les condicions d''ús'
+      updated-at: 'Les condicions d''ús han estat actualitzades amb data {date}'
+      updated-recently: 'Les condicions d''ús han estat actualitzades des de la teva darrera visita'
+    signup:
+      i-accept: 'Accepto la <a>{policy}</a>'
+      must-accept: 'La {policy} ha de ser acceptada.'
+    state-modal:
+      accepted-at: 'Acceptades amb data {date}'
+      not-accepted: 'No acceptades'
+      title: 'Estat d''acceptació de les condicions d''ús per part de l''usuari {username}'
+    update-alert:
+      can-accept-message: 'Hem actualitzat recentment les condicions d''ús. Cal que les acceptis altre cop per poder seguir utilitzant el fòrum.'
+      must-accept-message: 'Hem restringit temporalment l''accés al teu compte mentre consultes les noves condicions d''ús.'
+      review: 'Fes clic aquí per revisar i acceptar les noves condicions d''ús'
+    user_controls:
+      state_button: 'Estat d''acceptació de les condicions d''ús'
