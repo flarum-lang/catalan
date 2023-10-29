@@ -50,6 +50,7 @@ CHANGELOG
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
