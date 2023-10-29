@@ -7,7 +7,7 @@ fof-reactions:
     page:
       convert:
         button: 'Convertir reaccions antigues'
-        converted: 'Tots {number} likes s''han convertit correctament'
+        converted: 'Tots {number} "M''agrada" s''han convertit correctament'
         converting: 'Les teves reaccions s''estan convertint. Refresca la pàgina d''aquí a uns minuts per veure el procés acabat (el temps de conversió pot ser llarg en funció del nombre total de reaccions)'
         help: 'Si acabes d''actualitzar la teva extensió, caldrà convertir les teves reaccions. Si acabes d''instal·lar l''extensió, pots ignorar aquest missatge.'
       reactions:
@@ -28,7 +28,11 @@ fof-reactions:
             upvoteHelptext: 'Entrar l''identificador de la reacció que vols convertir automàticament en un vot favorable'
             upvoteLabel: 'Convertir reaccions en vots favorables'
           legend: Integracions
-          warning: 'La mateixa reacció <strong>no es pot</strong> convertir alhora en un m''agrada <strong>i</strong> en un vot favorable'
+          likes:
+            Helptext: 'Entrar l''identificador de la reacció que vols convertir automàticament en un "M''agrada"'
+            Label: 'Convertir reaccions a "M''agrada"'
+            legend: 'M''agrada'
+          warning: 'La mateixa reacció <strong>no es pot</strong> convertir alhora en un "M''agrada" <strong>i</strong> en un vot favorable'
         react_own_posts_help: 'Quan està activat, els usuaris poden reaccionar als seus propis missatges al fòrum. Per evitar que els usuaris reaccionin a les seves pròpies publicacions, desactiva aquesta configuració.'
         react_own_posts_label: 'Els usuaris poden reaccionar a les seves pròpies publicacions,'
         save_settings: 'Desar configuració'

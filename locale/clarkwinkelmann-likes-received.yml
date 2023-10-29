@@ -5,7 +5,7 @@
 clarkwinkelmann-likes-received:
   admin:
     permission:
-      view: 'Veure likes rebuts'
+      view: 'Veure els "M''agrada" rebuts'
   forum:
     user-card:
-      likes: '{likes, plural, one {# like rebut} other {# likes rebuts}}'
+      likes: '{likes, plural, one {# "M''agrada" rebut} other {# "M''agrada" rebuts}}'
