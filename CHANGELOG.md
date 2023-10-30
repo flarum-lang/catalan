@@ -60,6 +60,7 @@ CHANGELOG
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
