@@ -8,7 +8,7 @@ flarum-mentions:
       mention_groups_label: 'Mencionar grups'
     settings:
       allow_username_format_label: 'Permetre el format d''esment de nom d''usuari (@nomusuari)'
-      allow_username_format_text: "El format actual per esmentar usuaris és @\"Nom visualitzat\"#ID.\nAquest paràmetre de configuració permet utilitzar l'antic format de @nomusuari. De tota manera, es convertirà al nou format un cop guardat.\n"
+      allow_username_format_text: "El format actual per esmentar usuaris és @\"Nom visualitzat\"#ID.\nAquest paràmetre de configuració permet utilitzar l'antic format de @nomusuari. De tota manera, es convertirà al nou format un cop desat.\n"
   email:
     group_mentioned:
       body: "Hola {recipient_display_name}!\n\n{mentioner_display_name} ha esmentat un grup del qual formes part a {title}.\n\n{url}\n\n---\n\n{content}\n"

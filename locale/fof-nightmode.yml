@@ -30,7 +30,7 @@ fof-nightmode:
         description: 'Tria quin tema de color vols utilitzar al fòrum.'
         description2: 'Aquest tema s''enllaçarà al teu compte i s''aplicarà a tots els teus dispositius, a no ser que ho canviïs amb el commutador de sota per a cada dispositiu.'
         device_specific_setting_checkbox: 'Configuració específica per dispositiu'
-        device_specific_setting_checkbox_tooltip: 'La teva tria de tema es guardarà individualment per a cadascun dels teus dispositius.'
+        device_specific_setting_checkbox_tooltip: 'La teva tria de tema es desarà individualment per a cadascun dels teus dispositius.'
         heading: Tema
         option_descriptions:
           auto: 'El teu tema es triarà automàticament en funció de la configuració del teu navegador o dispositiu. Per exemple, si tens el mode fosc activat a iOS, els fòrums s''hi veuran en mode fosc.'

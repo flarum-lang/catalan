@@ -10,8 +10,8 @@ ianm-html-head:
       description_label: Descripció
       edit_title: 'Editar element'
       header_label: 'Element personalitzat de la capçalera'
-      save_button: Guardar
-      text: 'Assegura''t de que la sintaxi és correcta, ja que és possible trecar el fòrum si s''entren dades incorrectes en algun element de la capçalera. Un cop guardat, activa el nou element de la capçalera mitjançant el botó d''activació/desactivació corresponent.'
+      save_button: Desar
+      text: 'Assegura''t de que la sintaxi és correcta, ja que és possible trecar el fòrum si s''entren dades incorrectes en algun element de la capçalera. Un cop desat, activa el nou element de la capçalera mitjançant el botó d''activació/desactivació corresponent.'
     table:
       active_label: Actiu
       delete_button: Esborrar

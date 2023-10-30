@@ -23,10 +23,10 @@ davwheat:
           confirm_delete: 'Confirmar esborrat de l''enllaç "{link}"'
           heading: 'Personalitzar enllaços'
           save_btn:
-            dirty: 'Gravar configuració'
-            fix_errors: 'Corregeix els errors abans de gravar'
-            saved: 'No hi ha canvis per gravar'
-            saving: 'Gravant els canvis...'
+            dirty: 'Desar configuració'
+            fix_errors: 'Corregeix els errors abans de desar'
+            saved: 'No hi ha canvis per desar'
+            saving: 'Desant els canvis...'
           table:
             header:
               delete: Esborrar

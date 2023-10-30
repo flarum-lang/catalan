@@ -212,7 +212,7 @@ core:
       signup_closed_button: Tancat
       signup_open_button: Obert
     settings:
-      saved_message: 'Canvis guardats.'
+      saved_message: 'Canvis desats.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -297,7 +297,7 @@ core:
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 'Títol del tema a debatre'
     composer_edit:
-      discard_confirmation: 'No has gravat els teus canvis. Realment els vols descartar?'
+      discard_confirmation: 'No has desat els teus canvis. Realment els vols descartar?'
       edited_message: 'S''ha publicat la teva edició.'
       post_link: 'Publicació #{number} sobre {discussion}'
       submit_button: '=> core.ref.save_changes'
@@ -594,7 +594,7 @@ core:
     reply: Respondre
     reset_your_password: 'Restablir la teva contrasenya'
     restore: Restablir
-    save_changes: 'Gravar canvis'
+    save_changes: 'Desar canvis'
     search_users: 'Cercar usuaris'
     security: Seguretat
     settings: Configuració

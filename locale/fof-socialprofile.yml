@@ -20,6 +20,6 @@ fof-socialprofile:
       grey_favicon: 'Favicon gris'
       headtitle: 'Edita butons'
       save_disabled_fetching_favicons: 'S''estan cercant icones. Si us plau, espera.'
-      submit: Guardar
+      submit: Desar
       title: Títol
       url: 'Adreça web'
