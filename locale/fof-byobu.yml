@@ -18,7 +18,7 @@ fof-byobu:
       delete_on_last_recipient_left: 'Esborrar els debats privats quan marxi l''últim usuari'
       delete_on_last_recipient_left_help: 'Si s''activa, els debats privats seran esborrats irreversiblement de la base de dades quan l''últim usuari marxi. En cas contrari, només quedaran ocults.'
       enable-make-public-option: 'Habilitar la possibilitat de "Fer públic"'
-      enable-make-public-option-help: 'Afegeix la possibilitat per a aquells usuaris amb permisos adequats per a esborrar tots els destinataris, assignar una nova etiqueta i fer el debat públicament visible (d''acord amb la configuració de visibilitat de l''etiqueta escollida).'
+      enable-make-public-option-help: 'Afegeix la possibilitat per a aquells usuaris amb permisos adequats per a esborrar tots els destinataris, d''assignar una nova etiqueta i fer el debat públicament visible (d''acord amb la configuració de visibilitat de l''etiqueta escollida).'
       hide_from_all_discussions_page: 'Amagar els debats privats de la pàgina de "Tots els debats"'
       hide_from_all_discussions_page_help: 'Els debats privats només seran accessibles des de la pàgina "Debats privats" o des del perfil d''usuari'
       post-event-icon: 'Publicar events'

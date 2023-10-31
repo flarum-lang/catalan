@@ -33,8 +33,8 @@ fof-reactions:
             Label: 'Convertir reaccions a "M''agrada"'
             legend: 'M''agrada'
           warning: 'La mateixa reacció <strong>no es pot</strong> convertir alhora en un "M''agrada" <strong>i</strong> en un vot favorable'
-        react_own_posts_help: 'Quan està activat, els usuaris poden reaccionar als seus propis missatges al fòrum. Per evitar que els usuaris reaccionin a les seves pròpies publicacions, desactiva aquesta configuració.'
-        react_own_posts_label: 'Els usuaris poden reaccionar a les seves pròpies publicacions,'
+        react_own_posts_help: 'Quan està activat, els usuaris poden reaccionar als seus propis missatges al fòrum. Per evitar que els usuaris reaccionin a les seves pròpies publicacions, desactiva aquesta opció.'
+        react_own_posts_label: 'Els usuaris poden reaccionar a les seves pròpies publicacions'
         save_settings: 'Desar configuració'
     permissions:
       react_posts_label: 'Reaccionar a publicacions'

@@ -47,7 +47,7 @@ the-turk-flamoji:
       recents_count_label: 'Compteig d''emojis utilitzats recentment'
       recents_count_text: 'El nombre d''emojis recents a desar.'
       show_category_buttons_label: 'Mostrar botons de categoria'
-      show_preview_label: 'Mostra la selecció de previsualització'
+      show_preview_label: 'Mostrar la selecció de previsualització'
       show_recents_label: 'Mostrar (i desar) els emojis utilitzats més recentment'
       show_search_label: 'Mostrar l''entrada de cerca'
       show_variants_label: 'Mostrar variants'
