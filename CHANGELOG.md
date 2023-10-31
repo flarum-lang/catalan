@@ -14,6 +14,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
 * [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
@@ -68,6 +69,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 * [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
@@ -75,6 +77,7 @@ CHANGELOG
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
 * [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
