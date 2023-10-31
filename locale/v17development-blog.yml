@@ -19,7 +19,7 @@ v17development-flarum-blog:
       blog_heading: Blog
       categories_heading: Categories
       default_article_image_label: 'Imatge de l''article per defecte'
-      default_article_image_text: 'Tria una imatge d''article per defecte per mostrar quan no hi ha cap imatge configurada.'
+      default_article_image_text: 'Tria una imatge d''article per defecte per mostrar quan no hi hagi cap imatge configurada.'
       featured_count_label: 'Publicacions màximes destacades'
       featured_count_text: 'Quantes publicacions s''han de mostrar en una graella gran a la pàgina superior de la pàgina del blog?'
       hide_on_discussion_list_label: 'No mostrar a la llista de debats'
@@ -30,7 +30,7 @@ v17development-flarum-blog:
       redirect_articles_label: 'Redirigeix els articles del blog'
       redirect_articles_text: 'Quan s''activa, aquesta extensió redirigirà les adreces web originals dels debats a les del blog.'
       redirect_tags_label: 'Redirigir les etiquetes del blog'
-      redirect_tags_text: 'Quan s''activa, aquesta extensió redirigirà les adreces web de les etiquetes del blog a les adreça de la categoria del blog.'
+      redirect_tags_text: 'Quan s''activa, aquesta extensió redirigirà les adreces web de les etiquetes del blog a l''adreça de la categoria del blog.'
       redirects_heading: Redirigeix
       require_review_label: 'Les publicacions requereixen revisió prèvia'
       require_review_text: 'Quan s''escrigui un article, no serà visible directament i caldrà la revisió d''un moderador.'
