@@ -12,7 +12,7 @@ blomstra-user-filter:
     index_page:
       filter_user:
         accessible_label: 'Filtra per autor'
-        all: Tot
+        all: Tothom
         keep_typing: 'Segueix teclejant...'
         label: 'Filtra per autor: {text}'
         no_results: 'No hi ha resultats'
