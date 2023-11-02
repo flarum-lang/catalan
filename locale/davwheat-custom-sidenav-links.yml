@@ -31,7 +31,7 @@ davwheat:
             header:
               delete: Esborrar
               icon: 'Icona de l''enllaç'
-              internal: 'És l''adreça de Flarum?'
+              internal: 'És una adreça interna?'
               position: Posició
               text: 'Text de l''enllaç'
               url: 'Adreça web de l''enllaç'
