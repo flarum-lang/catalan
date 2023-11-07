@@ -15,11 +15,11 @@ the-turk-regrole:
     choose_role_button_label: '=> the-turk-regrole.ref.choose_a_role'
     choose_role_modal:
       choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
-      choose_role_text: 'Si us plau, tria un rol per poder seguir utilitzant el fòrum.'
+      choose_role_text: 'Si us plau, tria algun rol per poder seguir utilitzant el fòrum.'
       save_button: '=> core.ref.save_changes'
-    required_role_message: 'Has de triar un rol.'
+    required_role_message: 'Cal triar algun rol.'
     sign_up_modal:
       choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
     suspended_temporarily_message: 'Hem suspès el teu compte temporalment fins que triïs un rol.'
   ref:
-    choose_a_role: 'Tria un rol'
+    choose_a_role: 'Tria algun rol'
