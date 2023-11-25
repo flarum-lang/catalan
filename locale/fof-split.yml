@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} publicació s''ha dividit des de {target}.} other {{count} publicacions s''han dividit des de {target}.}}'
       was_split_to: '{count, plural, one {{count} publicació s''ha dividit a {target}.} other {{count} publicacions s''han dividit a {target}.}}'
     split:
+      cancel: 'Cancel·lar la divisió'
       from: 'Dividir des d''aquí'
       to: 'Dividir a aquí'

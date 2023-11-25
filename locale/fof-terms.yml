@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-terms/ca/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Esborra l''acceptació de les condicions d''ús per part de l''usuari'
+        export_description: 'Detalls sobre l''acceptació de les condicions d''ús per part de l''usuari'
 fof-terms:
   admin:
     buttons:
