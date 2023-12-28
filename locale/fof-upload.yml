@@ -19,12 +19,13 @@ fof-upload:
       download_templates: "Les plantilles de baixada són com es mostren les pujades al vostre fòrum, per exemple, com a visualitzacions prèvies, botons. Disponible actualment:\n"
       mime_types: "Configura el teu mapa aquí. Cada expressió regular de tipus MIME serà gestionada per un adaptador de càrrega i una plantilla de baixada específics.\n"
       resize: "Tria si vols canviar la mida de les teves imatges abans que es pengin. Pots triar una amplada i una alçada màximes, en píxels. El procés de redimensionament manté la relació d'aspecte de les imatges.\n"
-      s3_acl: "L'ACL que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+      s3_acl: "La llista de control d'accessos (ACL) que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n"
       s3_instance_profile: "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n"
       watermark: "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n"
     labels:
       aws-s3:
+        acl: 'Llista de control d''accessos (ACL)'
         advanced_title: 'Configuració avançada d''emmagatzematge S3'
         bucket: 'Bucket S3'
         endpoint: 'Punt final'
@@ -32,11 +33,58 @@ fof-upload:
         region: Regió
         secret: Secret
         title: 'Configuració d''emmagatzematge S3'
+        use_path_style_endpoint: 'Utilitzar punt final de tipus ruta de fitxer completa'
+      client_extension:
+        title: 'Extensions de fitxers proporcionades per l''usuari'
+      composer_buttons:
+        options:
+          both: 'Tots dos'
+          media-btn: 'Només el botó del gestor de mitjans'
+          upload-btn: 'Només el botó per pujar fitxers'
+        title: 'Botons a l''editor de publicacions'
+      disable-download-logging:
+        title: 'Desactiva el registre de baixades als fitxers log'
+        toggle: Desactivar
+      disable-hotlink-protection:
+        title: 'Desactivar la protecció d''enllaços directes (hotlinks)'
+        toggle: Desactivar
+      imgur:
+        client_id: 'Identificador de client Imgur'
+        title: 'Configuració de l''emmagatzematge d''imatges a Imgur'
+        tos: 'És la teva responsabilitat assegurar que els usuaris del teu fòrum compleixen els <a>Termes de servei</a> d''Imgur'
+      inspect-mime: 'Provar el tipus MIME'
+      local:
+        cdn_url: 'Adreça web del lliurament de contingut (prefixes)'
+        title: 'Configuració de l''emmagatzematge local'
+      preferences:
+        max_file_size: 'Mida màxima de fitxer (en kilobytes)'
+        mime_types: 'Configura el teu tipus MIME, mapeja l''adaptador de pujada de fitxers'
+        php_ini_values: 'Els valors al teu fitxer <code>php.ini</code> són <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Assegura''t que el valor establert aquí estigui per sota d''aquests llindars o ajusta''ls en conseqüència. Si utilitzes <code>Nginx</code>, assegura''t també que <code>client_max_body_size</code> tingui una mida suficient per al teu límit màxim escollit.'
+        title: 'Preferències generals'
+      qiniu:
+        bucket: 'Bucket Qiniu'
+        key: Clau
+        secret: Secret
+        title: 'Configuració de l''emmagatzematge a Qiniu'
+      resize:
+        max_width: 'Amplada/alçada màxima de la imatge'
+        title: 'Canviar la mida de la imatge'
+        toggle: 'Canviar la mida de les imatges'
+      watermark:
+        file: 'Puja la teva imatge de marca d''aigua'
+        position: 'Posició de la marca d''aigua'
+        title: 'Imatges de marca d''aigua'
+        toggle: 'Imatges de marca d''aigua'
     nav:
       shared-uploads-button: 'Fitxers pujats compartits'
     pane:
       description: 'Configurar els serveis i les preferències de pujada de fitxers.'
       title: Pujar
+    permissions:
+      delete_uploads_of_others_label: 'Esborrar els fitxers pujats per l''usuari'
+      download_label: 'Descarregar fitxers'
+      upload_label: 'Pujar fitxers'
+      view_user_uploads_label: 'Veure els fitxers pujats per l''usuari'
     shared-uploads:
       description: 'Fitxers pujats que poden ser usats per tots els usuaris del fòrum.'
       introduction: "Els fitxers pujats compartits són fitxers que poden ser utilitzats per tots els usuaris del fòrum. No s'adjunten a cap publicació, però es poden inserir en publicacions mitjançant el gestor de mitjans.\n\n<strong>Avís:</strong> els fitxers pujats compartits no estan per cap permís. Qualsevol persona amb l'URL pot veure'ls.\n"
