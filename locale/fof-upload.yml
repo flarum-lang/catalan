@@ -23,6 +23,18 @@ fof-upload:
       s3_compatible_storage: "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n"
       s3_instance_profile: "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n"
       watermark: "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n"
+    inspect-mime:
+      description: "FoF Upload utilitza la llibreria <a>PHP Mime Detector</a> per als tipus MIME habituals i PHP Fileinfo com a alternativa.\nEl valor MIME retornat per Fileinfo pot ser diferent en diferents tipus de servidor!\n"
+      guessed-extension: 'Extensió de fitxer predeterminada (si l''original no està a la llista blanca)'
+      laravel-validation: 'Validació de fitxer Laravel'
+      mime-detector: 'Detector de tipus MIME (primari)'
+      mime-fileinfo: 'PHP Fileinfo (mètode alternatiu)'
+      no-file-selected: 'Cap fitxer'
+      not-available: 'Cap resultat'
+      select: 'Tria un fitxer per inspeccionar els valors que s''utilitzaran. El fitxer no es desarà.'
+      title: 'Inspeccionar tipus MIME'
+      validation-failed: 'Incorrecte: {error}'
+      validation-passed: Correcte
     labels:
       aws-s3:
         acl: 'Llista de control d''accessos (ACL)'
@@ -81,9 +93,11 @@ fof-upload:
       description: 'Configurar els serveis i les preferències de pujada de fitxers.'
       title: Pujar
     permissions:
+      access_shared_label: 'Accedir als fitxers compartits en el gestor de mitjans'
       delete_uploads_of_others_label: 'Esborrar els fitxers pujats per l''usuari'
       download_label: 'Descarregar fitxers'
       upload_label: 'Pujar fitxers'
+      upload_shared_label: 'Pujar fitxers compartits'
       view_user_uploads_label: 'Veure els fitxers pujats per l''usuari'
     shared-uploads:
       description: 'Fitxers pujats que poden ser usats per tots els usuaris del fòrum.'
@@ -91,3 +105,62 @@ fof-upload:
       no-files: 'Encara no s''ha pujat cap fitxer compartit.'
       title: 'Fitxers pujats compartits'
       upload-new-button: 'Pujar nou fitxer'
+    templates:
+      bbcode-image: 'Plantilla d''imatge BBCode'
+      bbcode-image_description: "Mostra la imatge completa en línia utilitzant BBCode. <strong>Has de tenir flarum/bbcode instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n"
+      file: 'Plantilla de descàrrega de fitxers per defecte'
+      file_description: "Mostra el nom de fitxer i alguna informació general. Gestiona la descàrrega mitjançant php, fet que permet la recollida d'estadístiques i la protecció contra enllaços directes.\n"
+      image: 'Plantilla de descàrrega d''imatges per defecte'
+      image-preview: 'Plantilla de previsualització de la imatge completa'
+      image-preview_description: "Mostra la imatge completa en línia, sense permetre la funcionalitat de descàrrega ni generar estadístiques i ignorant la protecció contra enllaços directes.\n"
+      image_description: "Mostra una miniatura de la imatge i gestiona la descàrrega via php, permetent la recollida d'estadístiques i la protecció contra enllaços directes.\n"
+      just-url: 'Només adreça web'
+      just-url_description: "Només insereix l'adreça web. La visualització del contingut es pot gestionar amb altres extensions que disposin de capacitat d'enllaç automàtic. No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n"
+      markdown-image: 'Plantilla d''imatge Markdown'
+      markdown-image_description: "Mostra la imatge completa en línia utilitzant sintaxi Markdown. <strong>Has de tenir flarum/markdown instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n"
+      text-preview: 'Previsualització de text'
+      text-preview_description: "Insereix una previsualització (les primeres 5 línies) d'un fitxer de text, amb l'opció d'expandir per mostrar els continguts complets del fitxer.\n"
+    upload_methods:
+      aws-s3: 'Compatible amb S3'
+      imgur: Imgur
+      local: Local
+      ovh-svfs: 'OVH SVFS'
+      qiniu: Qiniu
+  api:
+    upload_errors:
+      cannot_write_to_disk: 'No s''ha pogut escriure al disc.'
+      could_not_detect_mime: 'No s''ha pogut detectar el tipus MIME d''aquest fitxer. Si us plau, torna-ho a provar.'
+      forbidden_type: 'La pujada d''aquest tipus de fitxer no està permesa.'
+      max_upload_file_size_form: 'S''ha excedit la mida màxima de fitxers que es poden pujar especificada al formulari.'
+      max_upload_file_size_ini: 'S''ha excedit la mida màxima de fitxers que es poden pujar especificada a php.ini.'
+      no_file_uploaded: 'No s''ha pujat cap fitxer.'
+      no_files_made_it_to_upload: 'Si us plau, puja fitxers que no excedeixin els {max} kb.'
+      no_upload_tmp_folder: 'No hi ha cap carpeta temporal per pujar fitxers.'
+      partial_upload: 'Pujada parcial.'
+      unsupported_type: 'L''adaptador de pujada de fitxers no accepta aquest tipus MIME: {mime}.'
+      upload_blocked_by_php_extension: 'Una extensió php ha bloquejat la pujada.'
+  forum:
+    buttons:
+      attach: Adjuntar
+      cancel: Cancel·lar
+      media: 'Els meus mitjans'
+      shared_media: 'Mitjans compartits'
+      upload: Pujar
+      upload_shared: Compartit
+      user_uploads: 'Pujades d''usuari'
+    media_manager: 'Gestor de mitjans'
+    states:
+      error: Error
+      loading: Pujant
+      unauthorized: 'No tens permisos per descarregar fitxers'
+    text_preview:
+      collapse: 'Replega la previsualització'
+      error: "Error previsualitzant fitxer. Pot haver estat esborrat o l'identificador de fitxer facilitat és invàlid.\n"
+      expand: 'Expandir la previsualització'
+      no_snippet: '<no hi ha cap fragment de previsualització disponible>'
+      no_snippet_preview: '<la previsualització apareixerà aquí un cop s''hagi publicat>'
+    validation:
+      max_size: 'No es permet la pujada de fitxers de més de {max} kb.'
+  lib:
+    upload-shared-file-modal:
+      title: 'Nou fitxer compartit'
