@@ -162,5 +162,11 @@ fof-upload:
     validation:
       max_size: 'No es permet la pujada de fitxers de més de {max} kb.'
   lib:
+    file_list:
+      empty: 'No hi ha cap fitxer per mostrar.'
+      loading: 'Carregant fitxers...'
     upload-shared-file-modal:
+      dropzone: 'Arrossega fitxers aquí o clica per triar-los des del teu ordinador'
+      hide-from-media-gallery: 'Amagar del gestor de mitjans de l''usuari'
       title: 'Nou fitxer compartit'
+      upload: Pujar
