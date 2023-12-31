@@ -5,7 +5,7 @@
 flarum-mentions:
   admin:
     permissions:
-      mention_groups_label: 'Mencionar grups'
+      mention_groups_label: 'Esmentar grups'
     settings:
       allow_username_format_label: 'Permetre el format d''esment de nom d''usuari (@nomusuari)'
       allow_username_format_text: "El format actual per esmentar usuaris és @\"Nom visualitzat\"#ID.\nAquest paràmetre de configuració permet utilitzar l'antic format de @nomusuari. De tota manera, es convertirà al nou format un cop desat.\n"
