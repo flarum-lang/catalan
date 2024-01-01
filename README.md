@@ -137,6 +137,7 @@ php flarum cache:clear
 | [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/justoverclock-socialcards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-socialcards/ca/) |
 | [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/justoverclock-hot-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions/ca/) |
 | [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/justoverclock-last-registered-users/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-last-registered-users/ca/) |
+| [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/litalino-top-bar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/litalino-top-bar/ca/) |
 | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/michaelbelgium-profile-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views/ca/) |
 | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/nearata-signup-confirm-password/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/ca/) |
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-move-posts/ca/) |
@@ -145,6 +146,7 @@ php flarum cache:clear
 | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/the-turk-regrole/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-regrole/ca/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/ca/) |
+| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/ca/) |
 
 <!-- various-extensions-list-stop -->
 
