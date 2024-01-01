@@ -19,6 +19,7 @@ CHANGELOG
 * [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
 * [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
