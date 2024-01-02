@@ -14,7 +14,7 @@ fof-byobu:
       make_private_into_public: 'Convertir un debat privat en debat públic'
       view_private_discussions-when-flagged: 'Veure debats privats d''altres usuaris si t''han esmentat'
     settings:
-      badge-icon: 'Distintiu de Byobu'
+      badge-icon: 'Insígnia de debat de Byobu'
       delete_on_last_recipient_left: 'Esborrar els debats privats quan marxi l''últim usuari'
       delete_on_last_recipient_left_help: 'Si s''activa, els debats privats seran esborrats irreversiblement de la base de dades quan l''últim usuari marxi. En cas contrari, només quedaran ocults.'
       enable-make-public-option: 'Habilitar la possibilitat de "Fer públic"'

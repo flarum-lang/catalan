@@ -9,7 +9,7 @@ clarkwinkelmann-group-list:
     permissions:
       see: 'Veure llista de grups'
     settings:
-      showAvatarBadges: 'Afegir altres distintius al costat de la foto de perfil'
+      showAvatarBadges: 'Afegir altres insígnies al costat de la foto de perfil'
       showOnlineStatus: 'Mostrar si està connectat'
       showSideNavLink: 'Mostrar enllaç a la barra lateral'
   forum:

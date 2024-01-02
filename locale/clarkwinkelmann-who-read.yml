@@ -17,7 +17,7 @@ clarkwinkelmann-who-read:
       show-count-of-readers-who-stopped: 'Mostrar el nombre d''usuaris que han deixat de llegir en lloc del total de lectures entre publicacions'
       show-in-discussion-list: 'Mostrar lectors a la llista de debats'
       show-in-hero: 'Mostrar lectors a la capçalera del debat'
-      unread-icon: 'Icona per al distintiu de No llegit'
+      unread-icon: 'Icona per a la insígnia de No llegit'
   forum:
     badges:
       following: '=> flarum-subscriptions.forum.badge.following_tooltip'

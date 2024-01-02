@@ -17,7 +17,7 @@ fof-analytics:
         piwikPrependDomain: 'Afegeix el domini del lloc al títol de la pàgina quan facis seguiment'
         piwikSiteId: 'ID del lloc web'
         piwikTrackAccounts: 'Segueix comptes d''usuari individuals'
-        piwikTrackSubdomain: 'Segueix els visitants a través de tots els subdominis de Flarum'
+        piwikTrackSubdomain: 'Segueix els visitants a través de tots els subdominis del fòrum'
         piwikUrl: 'Domini o URL de Matomo'
         statusGoogle: 'Habilita Google Analytics (UA/GA4)'
         statusPiwik: 'Habilita Matomo'
