@@ -79,6 +79,7 @@ CHANGELOG
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 * [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
