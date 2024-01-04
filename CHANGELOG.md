@@ -31,6 +31,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page)
 * [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
