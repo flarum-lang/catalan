@@ -80,7 +80,7 @@ v17development-flarum-badges:
       name: 'Nom de la insígnia'
       no_earning_reason: 'No s''ha indicat cap motiu per guanyar la insígnia'
       others_link: '+ {count} més'
-      received_on: 'Rebuda {date}'
+      received_on: 'Rebuda: {date}'
       update_earning_reason: 'Actualitzar el motiu per guanyar la insígnia'
     badge_information: 'Informació de la insígnia'
     badges_in_card:
