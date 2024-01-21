@@ -5,6 +5,11 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Per defecte: {url}'
+        help: "Per defecte, servim les imatges de les reaccions des del servei CDN (=Content Delivery Network) de Cloudflare. També tens l'opció d'especificar qualsevol altra adreça CDN si ho consideres necessari.\n<code>[codepoint]</code> es substituirà pel punt de codi de l'emoji.\n\nPer exemple, per canviar a Noto Emoji mitjançant jsdelivr, introdueix <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Aquest camp MAI s'ha de deixar buit.\n"
+        label: 'Adreça web'
+        title: CDN
       convert:
         button: 'Convertir reaccions antigues'
         converted: 'Tots {number} "M''agrada" s''han convertit correctament'
