@@ -10,7 +10,12 @@ fof-username-request:
       request_username: 'Sol·licitar canvi de nom'
   email:
     body:
+      approved: "Hola, {recipient_display_name}:\n\n{actor_display_name} ha aprovat la teva sol·licitud per canviar el teu nom d'usuari a \"{new_username}\".\n\nAra pots iniciar sessió amb el nou nom d'usuari: {login_url}\n"
       noReasonProvided: 'No s''ha especificat cap motiu.'
+      rejected: "Hola, {recipient_display_name}:\n\n{actor_display_name} ha rebutjat la teva sol·licitud per canviar el teu nom d'usuari de \"{old_username}\" a \"{requested_username}\".\n\nMotiu: {reason}\n"
+    subject:
+      approved: '{display_name} ha aprovat el teu canvi de nom d''usuari a {requested_username}'
+      rejected: '{display_name} ha rebutjat el teu canvi de nom d''usuari a {requested_username}'
   forum:
     nickname_modals:
       action:
