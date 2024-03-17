@@ -12,26 +12,36 @@ fof-gamification:
     page:
       alt_votes:
         icon_name: 'Nom de la icona de disseny alternatiu'
+      convert:
+        button: 'Convertir els "m''agrada" en vots positius'
+        help: 'Convertir els "m''agrada" de flarum-ext-likes en vots positius, calculant a més com agraden tots els debats actuals.'
       rankings:
         blocked:
           help: 'Aquests usuaris no es mostraran a la pàgina de classificació. Els noms d''usuari s''han de separar amb una coma seguida d''un espai.'
-          placeholder: 'admin, user1, user2'
+          placeholder: 'admin, usuari1, usuari2'
           title: 'Usuaris ignorats'
         custom_image_1: 'Imatge del 1r lloc'
         custom_image_2: 'Imatge del 2n lloc'
         custom_image_3: 'Imatge del 3r lloc'
         enable: 'Habilita imatges personalitzades'
         title: 'Pàgina de Classificacions'
+      save_settings: 'Desar configuració'
       votes:
+        allow_self_votes: 'Els usuaris poden votar les seves pròpies publicacions'
         alternate_layout: 'Utilitza un disseny de votació alternatiu a la llista de debats'
         alternate_post_layout: 'Utilitza un disseny de votació alternatiu a les publicacions'
         auto_upvote: 'Vota positivament les publicacions automàticament quan són publicades'
         color_holder: '#ffffff'
         discussion_page: 'Mostra el total de vots de la publicació original a la llista de debats'
+        first_post_only: 'Només permetre vots positius o negatius en la primera publicació de cada debat'
+        icon_help: 'Entrar qualsevol icona de Font-Awesome que acabi amb -up o -down. Per exemple: arrow, thumbs, chevron...'
+        icon_name: 'Icona de vot positiu o negatiu'
         points_placeholder: 'Punts: '
         points_title: 'Marcador de posició de punts'
         rate_limit: 'Aplica un límit de ritme de votació (10 segons)'
         title: Vots
+        upvotes_only: 'Només permetre vots positius'
+        vote_color: 'Color votat'
     permissions:
       downvote_notifications: 'Rebre notificacions quan es voti en contra'
       see_ranking_page: 'Veure la pàgina de classificació'

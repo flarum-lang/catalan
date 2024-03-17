@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Si acabes d''actualitzar la teva extensió, caldrà convertir les teves reaccions. Si acabes d''instal·lar l''extensió, pots ignorar aquest missatge.'
       reactions:
         Helptext: 'Tecleja el nom (identificador) de l''emoji o de la icona de font-awesome i tria quin tipus d''element vols utilitzar.'
+        delete_confirmation: 'Segur que vols esborrar aquesta reacció? Aquesta acció no es pot desfer.'
         help:
           display: Mostrar
           identifier: Identificador
@@ -42,6 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Els usuaris poden reaccionar a les seves pròpies publicacions'
         save_settings: 'Desar configuració'
     permissions:
+      delete_post_reactions_label: 'Esborrar les reaccions de les publicacions'
       react_posts_label: 'Reaccionar a publicacions'
       see_reactions_label: 'Veure qui ha reaccionat a publicacions'
   forum:
@@ -49,6 +51,7 @@ fof-reactions:
     mod_item: 'Veure reaccions'
     modal:
       anonymous_count: '{count, plural, one {# usuari anònim} other {# usuaris anònims}}'
+      no_reactions: 'Sense reaccions encara'
       title: Reaccions
     notification: '{username} ha reaccionat amb {reaction} a la teva publicació'
     react_button_label: Reaccionar
