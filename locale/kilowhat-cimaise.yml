@@ -5,7 +5,86 @@
 kilowhat-cimaise:
   admin:
     permissions:
+      attachCimaiseAlbum: 'Annexar manualment àlbums als debats'
+      createCommunityAlbums: 'Crear àlbums comunitaris'
+      createPersonalAlbums: 'Crear àlbums personals'
+      editOwnAlbum: 'Canviar el títol i la descripció de l''àlbum propi'
+      editOwnImage: 'Utilitzar l''editor d''imatges a la foto pròpia (retalls, màscares i adhesius)'
+      editOwnPublishedImage: 'Utilitzar l''editor d''imatges a la foto pròpia un cop publicada'
+      hideOwnAlbum: 'Amagar l''àlbum propi'
+      hideOwnPicture: 'Amagar la foto pròpia'
+      licenseOwnPublishedPicture: 'Canviar la llicència de la foto pròpia un cop publicada'
+      moderate: Moderar
+      publishSilently: 'Publicar fotos en mode silenciós (sense crear cap publicació)'
+      renameOwnPublishedPicture: 'Canviar el títol i la descripció de la foto pròpia un cop publicada'
+      uploadCommunityPicturesWithoutApproval: 'Pujar fotos sense necessitar aprovació als àlbums comunitaris'
+      uploadPersonalPicturesWithoutApproval: 'Pujar fotos sense necessitar aprovació als àlbums personals'
+      uploadPictures: 'Pujar fotos'
       view: Veure
+      viewExif: 'Veure dades EXIF (inclosa la geolocalització)'
+    settings:
+      autoCreateDiscussionAlbum: 'Automàticament, crear un àlbum per a cada nou debat'
+      autoCreateDiscussionAlbumHelp: "Crea automàticament un àlbum nou amb el mateix títol que el debat i amb l'autor com a propietari. Aquesta funció s'aplica inclús quan no es disposa de permís de creació d'àlbums i s'aplica a totes les etiquetes.\n"
+      columnTheme: 'Tema de columna'
+      columnThemeHelp: 'Utilitza l''estil del panell lateral quan es mostren fotos, en lloc del panell inferior.'
+      license-add: 'Afegir llicència'
+      license-description: Descripció
+      license-key: Clau
+      license-label: Etiqueta
+      licenses: Llicències
+      mapboxToken: 'Identificador de mapa'
+      mapboxTokenHelp: 'Introdueix un identificador (=token) vàlid per mostrar el mapa de geolocalització sota les metadades de la foto.'
+      neverSyncDiscussionAlbumTitles: 'No sincronitzar mai els títols del debat i l''àlbum'
+      neverSyncDiscussionAlbumTitlesHelp: "Per defecte, els àlbums enllaçats que tinguin el mateix títol que el debat es canviaran de nom quan canviï el títol del debat. Si l'àlbum es canvia de nom manualment, mai es tornarà a sincronitzar amb els debats.\n"
+      requireLicense: 'Cal triar una llicència de la llista inferior'
+      requireLicenseHelp: "Per defecte, els usuaris poden ometre la configuració d'una llicència per a les fotos. Confirma que els termes del teu lloc web cobreixen què pot fer-se amb les fotografies quan no s'especifica cap llicència.\n"
+      sticker-add: 'Afegir adhesiu'
+      sticker-key: Clau
+      sticker-label: Etiqueta
+      sticker-url: 'Adreça web'
+      stickers: Adhesius
+      watermarkFile: 'Imatge de marca d''aigua'
+      watermarkFileHelp: 'La imatge proporcionada s''aplicarà 1:1 sobre cada imatge pujada, excepte les previsualitzacions més petites.'
+      watermarkPlacement: 'Posicionament de la marca d''aigua'
+      watermarkPlacementOptions:
+        bottomLeft: 'Inferior esquerre'
+        bottomRight: 'Inferior dret'
+        topLeft: 'Superior esquerre'
+        topRight: 'Superior dret'
+    status:
+      loading: Carregant...
+      pictures:
+        drafts: '({count} esborranys)'
+        section: Fotos
+      refresh: Refrescar
+      storage:
+        conversions: 'Conversions: {size}'
+        originals: 'Originals: {size}'
+        section: 'Emmagatzematge (estimat)'
+  api:
+    picture-edit:
+      unauthorized:
+        author: 'Autor invàlid. Edició no autoritzada'
+        crop: 'Retall invàlid. Edició no autoritzada'
+        description: 'Descripció invàlida. Edició no autoritzada'
+        isApprovedApprove: 'Estat d''aprovació invàlid. No es permet l''aprovació'
+        isApprovedUnApprove: 'Estat d''aprovació invàlid. No es pot revocar l''aprovació'
+        isDraftSubmit: 'Estat de l''esborrany invàlid. No es permet l''enviament'
+        isDraftUnSubmit: 'Estat de l''esborrany invàlid. No es pot anul·lar l''enviament'
+        isFavorite: 'Marca de foto favorita invàlida. Edició no autoritzada'
+        isHiddenHide: 'Estat d''ocultació invàlid. No es pot amagar'
+        isHiddenRestore: 'Estat d''ocultació invàlid. No es pot restaurar'
+        license: 'Llicència invàlida. Edició no autoritzada'
+        stickers: 'Adhesius invàlids. Edició no autoritzada'
+        takenAt: 'Data de presa de foto invàlida. Edició no autoritzada'
+        title: 'Títol invàlid. Edició no autoritzada'
+    post-edit:
+      cannotAttachAlreadySubmitted: 'No es pot annexar la foto {id} perquè ja s''ha enviat'
+      cannotAttachFromExternalAlbum: 'No es pot annexar la foto {id} perquè pertany a un àlbum extern'
+      cannotAttachHasNoAlbum: 'Aquest debat no té cap àlbum annex'
+      cannotAttachToNonComment: 'Les imatges no es poden adjuntar manualment a publicacions sense comentaris'
+      cannotAttachUnauthorized: 'No es pot annexar la foto {id} perquè no et pertany'
+      cannotFindPicturesFromRelation: 'No s''han trobat totes les fotos demanades a la base de dades'
   forum:
     album-list:
       empty: 'No hi ha cap àlbum'
@@ -116,3 +195,13 @@ kilowhat-cimaise:
       title: 'Fotos pujades a l''àlbum "{title}"'
       titleInComposer: 'Editar fotos'
       uploading: Pujant
+  ref:
+    albums: Àlbums
+    by-user: Per
+    controls: Controls
+    delete: Esborrar
+    hide: Amagar
+    load-more: 'Carregar més'
+    loading: Carregant...
+    pictures: Fotos
+    restore: Restaurar
