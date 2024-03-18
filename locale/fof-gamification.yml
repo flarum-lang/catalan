@@ -14,7 +14,18 @@ fof-gamification:
         icon_name: 'Nom de la icona de disseny alternatiu'
       convert:
         button: 'Convertir els "m''agrada" en vots positius'
+        converted: '"M''agrada" convertits correctament: {number}'
+        converting: 'Els "m''agrada" s''estan convertint. Refresca el fòrum d''aquí a uns minuts per veure el procés acabat. El temps de conversió pot allargar-se si hi ha molts "m''agrada" al fòrum'
         help: 'Convertir els "m''agrada" de flarum-ext-likes en vots positius, calculant a més com agraden tots els debats actuals.'
+      groups:
+        add: 'Afegir nova regla'
+        column:
+          group: Grup
+          maxPoints: 'Punts màxims (inclosos)'
+          minPoints: 'Punts mínims (inclosos)'
+        delete: 'Esborrar regla'
+        help: "Els grups seleccionats s'afegiran o s'eliminaran automàticament segons calgui quan canviï el nombre de punts d'un usuari. Si has fet canvis a la configuració, hauries d'executar l'ordre <code>php flarum fof:gamification:assign-groups</code> per actualitzar els usuaris existents. Si vols suprimir una regla i eliminar tots els usuaris del grup, escriu una cadena buida com a valors mínim i màxim, desa la configuració i executa l'ordre de la línia d'ordres. Finalment, pots suprimir la regla completament de la configuració.\n"
+        title: 'Grups assignats automàticament'
       rankings:
         blocked:
           help: 'Aquests usuaris no es mostraran a la pàgina de classificació. Els noms d''usuari s''han de separar amb una coma seguida d''un espai.'
@@ -25,6 +36,15 @@ fof-gamification:
         custom_image_3: 'Imatge del 3r lloc'
         enable: 'Habilita imatges personalitzades'
         title: 'Pàgina de Classificacions'
+      ranks:
+        help:
+          color: '#ffffff'
+          help: 'Entra el nombre requerit de vots positius, el nom del rang i el codi hexadecimal del color del rang'
+          name: Nom
+          points: Punts
+        number_title: 'Quantes insígnies de rang cal mostrar?'
+        ranks: 'Rangs personalitzats'
+        title: Rangs
       save_settings: 'Desar configuració'
       votes:
         allow_self_votes: 'Els usuaris poden votar les seves pròpies publicacions'
@@ -49,6 +69,11 @@ fof-gamification:
       see_votes_label: 'Veure el recompte de vots a favor/en contra'
       upvote_notifications: 'Rebre notificacions quan es voti a favor'
       vote_label: 'Vota positivament/negativament les publicacions'
+  email:
+    body:
+      postVoted: "Hola {recipient_display_name},\n\n{actor_display_name} acaba de votar la teva publicació al debat {discussion_title}.\n\nPots veure-ho aquí: {discussion_url}\n"
+    subject:
+      postVoted: '{display_name} ha votat la teva publicació'
   forum:
     mod_item: 'Veure el votants'
     modal:
