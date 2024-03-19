@@ -69,8 +69,8 @@ kilowhat-cimaise:
         description: 'Descripció invàlida. Edició no autoritzada'
         isApprovedApprove: 'Estat d''aprovació invàlid. No es permet l''aprovació'
         isApprovedUnApprove: 'Estat d''aprovació invàlid. No es pot revocar l''aprovació'
-        isDraftSubmit: 'Estat de l''esborrany invàlid. No es permet l''enviament'
-        isDraftUnSubmit: 'Estat de l''esborrany invàlid. No es pot anul·lar l''enviament'
+        isDraftSubmit: 'Estat de l''esborrany invàlid. No es permet publicar'
+        isDraftUnSubmit: 'Estat de l''esborrany invàlid. No es pot despublicar'
         isFavorite: 'Marca de foto favorita invàlida. Edició no autoritzada'
         isHiddenHide: 'Estat d''ocultació invàlid. No es pot amagar'
         isHiddenRestore: 'Estat d''ocultació invàlid. No es pot restaurar'
@@ -115,7 +115,7 @@ kilowhat-cimaise:
       search: Cercar
       select: Seleccionar
       selected: 'Seleccionades:'
-      submit: Enviar
+      submit: Publicar
       title: 'Annexar àlbum a "{title}"'
       unselect: Desseleccionar
     badge:
@@ -181,7 +181,7 @@ kilowhat-cimaise:
       oldestTake: 'Primera presa'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
-      in-album: En
+      in-album: 'A l''àlbum'
     post-stream:
       uploaded: 'L''usuari(a) {username} ha pujat {count} fotos'
     upload-modal:
@@ -190,7 +190,7 @@ kilowhat-cimaise:
       publishSilently: 'Publicar en mode silenciós'
       reload: 'Tornar a carregar llista d''esborranys'
       select-file: 'Escull un fitxer'
-      submit: Enviar
+      submit: Publicar
       submitInComposer: Continuar
       title: 'Fotos pujades a l''àlbum "{title}"'
       titleInComposer: 'Editar fotos'
