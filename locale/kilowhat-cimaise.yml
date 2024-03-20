@@ -181,7 +181,7 @@ kilowhat-cimaise:
       oldestTake: 'Primera presa'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
-      in-album: 'A l''àlbum'
+      in-album: 'a l''àlbum'
     post-stream:
       uploaded: 'L''usuari(a) {username} ha pujat {count} fotos'
     upload-modal:
