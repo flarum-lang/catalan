@@ -98,6 +98,7 @@ CHANGELOG
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
