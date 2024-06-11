@@ -92,7 +92,7 @@ CHANGELOG
 * [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
 * [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards)
 * [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
-* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
