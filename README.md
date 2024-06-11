@@ -170,7 +170,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
-| [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/ca/) |
+| [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/ca/) |
 
 <!-- premium-extensions-list-stop -->
 
