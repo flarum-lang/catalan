@@ -83,6 +83,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
