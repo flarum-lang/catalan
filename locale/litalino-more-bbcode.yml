@@ -8,6 +8,7 @@ imeepo-more-bbcode:
       bypass_like_label: 'Ignora els "M''agrada" mostrats'
       bypass_reply_label: 'Ignora les respostes mostrades'
   forum:
+    button_tooltip_reply: 'Respon per veure'
     hidden_content: 'CONTINGUT OCULT'
     hidden_content_like: 'Contingut mostrat quan s''ha clicat "M''agrada"'
     hidden_content_login: 'Contingut mostrat quan s''ha iniciat sessió'
@@ -24,3 +25,6 @@ imeepo-more-bbcode:
       spoiler_tooltip: 'Afegir espòiler'
       strikethrough_tooltip: 'Afegir text ratllat'
       unordered_list_tooltip: 'Afegir llista amb punts'
+    like_to_see: 'Aquest contingut requereix {like} i es mostra després de refrescar la pantalla'
+    login_to_see: 'Aquest contingut requereix {login} i es mostra després de refrescar la pantalla'
+    reply_to_see: 'Aquest contingut requereix {reply} i es mostra després de refrescar la pantalla'
