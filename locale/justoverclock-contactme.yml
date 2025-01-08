@@ -16,7 +16,7 @@ flarum-ext-contactme:
     messagesent: 'Missatge enviat!'
     notloggedin: 'Si us plau, inicia la sessió per utilitzar el formulari de contacte'
     pText: "<p>Utiliza aquest formulari de contacte per enviar-nos propostes, peticions o qualsevol tipus de pregunta.</p>\n<p><strong>TRACTAMENT DE LES DADES PERSONALS</strong></p>\n<p>(d'acord amb el Reglament General de Protecció de Dades europeu)</p>\n<p>T'informem que les dades que facilitaràs a l'operador d'aquest lloc a l'omplir el \"formulari de contacte\", seran tractades d'acord amb el que disposa el Reglament General de Protecció de Dades Europeu (RGPD/GDPR).\n   El formulari de contacte disponible al lloc té l'únic objectiu de permetre als visitants del lloc contactar, si així ho desitgen, amb el responsable del lloc,.\n   enviant un correu electrònic al gestor a través del formulari esmentat.</p>\n<p>Segueix aquestes regles:</p>\n<li>No abusis del formulari de contacte per peticions que es poden fer mitjançant el fòrum</li>\n<li>No enviïs el mateix correu electrònic diverses vegades</li>\n"
-    pageTitle: '.Contacta''ns'
+    pageTitle: 'Contacta''ns'
     placeholderName: 'Escriu el teu nom aquí'
     plsregister: 'Si us plau, registra''t o inicia sessió'
     sendForm: 'Enviar missatge'
