@@ -77,6 +77,7 @@ CHANGELOG
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
