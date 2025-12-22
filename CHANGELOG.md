@@ -65,6 +65,7 @@ CHANGELOG
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
