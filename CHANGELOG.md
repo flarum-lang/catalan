@@ -105,11 +105,11 @@ CHANGELOG
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
-* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
-* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
-* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* `the-turk-diff`
+* `the-turk-flamoji`
+* `the-turk-miserable-users`
 * [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
-* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
+* `the-turk-regrole`
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
