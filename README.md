@@ -114,6 +114,7 @@ php flarum cache:clear
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/ca/) |
 | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/datlechin-scroll-buttons/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-scroll-buttons/ca/) |
 | [`ianm/html-head`](https://github.com/imorland/html-head) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/ianm-html-head/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ianm-html-head/ca/) |
+| [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/michaelbelgium-profile-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-profile-views/ca/) |
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-move-posts/ca/) |
 
 <!-- various-extensions-list-stop -->
