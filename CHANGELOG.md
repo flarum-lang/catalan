@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-05-12)
+------------------
+
+**Added support for new extensions**:
+
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+All changes: [v2.0.0...v2.0.1](https://github.com/flarum-lang/catalan/compare/v2.0.0...v2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
