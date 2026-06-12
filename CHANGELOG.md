@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+
+
+All changes: [v2.0.1...v2.0.2](https://github.com/flarum-lang/catalan/compare/v2.0.1...v2.0.2).
+
+
 2.0.1 (2026-05-12)
 ------------------
 
