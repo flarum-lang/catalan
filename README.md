@@ -146,7 +146,7 @@ php flarum cache:clear
 | [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/nearata-password-strength-enforcer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-password-strength-enforcer/ca/) |
 | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/nearata-signup-confirm-password/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/ca/) |
 | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/sas_sam-regrole/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sas_sam-regrole/ca/) |
-| [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
+| [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ca/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ca/) |
 
 <!-- various-extensions-list-stop -->
 
