@@ -54,6 +54,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
