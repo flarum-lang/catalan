@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
