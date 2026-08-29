@@ -8,6 +8,8 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
