@@ -5,7 +5,7 @@
 acpl-mobile-tab:
   forum:
     all_discussions: Debats
-    categories: '=> askvortsov-categories.forum.index.categories_link'
+    categories: Categories
     home: Inici
     log_in: '=> core.forum.header.log_in_link'
     notifications: '=> core.forum.notifications.title'
