@@ -7,10 +7,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
-* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
-* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
-* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (83% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (11% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (100% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (50% complete)
 
 
 All changes: [v2.0.1...2.0.2](https://github.com/flarum-lang/catalan/compare/v2.0.1...2.0.2).
