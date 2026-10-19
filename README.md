@@ -113,6 +113,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/clarkwinkelmann-likes-received/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-likes-received/ca/) |
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/ca/) |
 | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/datlechin-scroll-buttons/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-scroll-buttons/ca/) |
 | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/ca/glowingblue-author-filter/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/glowingblue-author-filter/ca/) |
