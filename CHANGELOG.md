@@ -5,6 +5,11 @@ CHANGELOG
 2.0.3 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
