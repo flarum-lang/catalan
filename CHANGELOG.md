@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-10-27)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/catalan/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-09-30)
 ------------------
 
