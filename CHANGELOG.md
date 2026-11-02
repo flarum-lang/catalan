@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.1 (2026-11-02)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+All changes: [1.0.0...1.0.1](https://github.com/flarum-lang/catalan/compare/1.0.0...1.0.1).
+
+
 1.0.0 (2026-09-30)
 ------------------
 
