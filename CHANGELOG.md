@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.2 (2026-11-23)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/catalan/compare/1.0.1...1.0.2).
+
+
 1.0.1 (2026-11-02)
 ------------------
 
