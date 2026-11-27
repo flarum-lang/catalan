@@ -1,23 +1,20 @@
 {
 	"name": "flarum-lang/catalan",
+	"description": "Catalan Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Catalan language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/catalan",
 	"keywords": [
-		"locale",
-		"flarum",
-		"ca-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/catalan",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/catalan/issues",
+		"forum": "https://discuss.flarum.org/d/40177",
 		"source": "https://github.com/flarum-lang/catalan"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Catalan",
@@ -31,12 +28,6 @@
 		"flarum-locale": {
 			"code": "ca",
 			"title": "Català"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
